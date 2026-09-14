@@ -1,3 +1,2 @@
 # linoly-yt.github.io
-My page
-Just a test
+<h2>My page</h2>
