@@ -60,6 +60,9 @@
     			cursor: pointer;
     			transition: background-color 0.2s ease, transform 0.1s ease;
 			}
+			.continue-btn {
+				background:green;
+			}
 			.info-div {
 				position:fixed;
 				bottom:25px;
@@ -128,7 +131,7 @@
 			
 			<dialog id="sales">
 				<h2>Sales</h2>
-				<button onclick="window.location.href='products.html'">Continue</button>
+				<button onclick="window.location.href='products.html'" class="continue-btn">Continue</button>
 				<br>
 				<br>
 				<button onclick="sales.close()" class="close-btn">Close</button>
